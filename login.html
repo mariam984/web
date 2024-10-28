@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style> 
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #785924;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    .yet {
+        background-color: rgba(240, 188, 209, 0.8); /* Fondo blanco con opacidad para contraste */
+        padding: 40px;
+        border-radius: 8px;
+        width: 550px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        text-align: center;
+        color: #f3598c; /* Color rosa */
+    }
+    
+    label {
+        font-size: 35px;
+        display: block;
+        margin-bottom: 15px;
+        color: #d45ca2; /* Color rosa */
+    }
+    
+    input {
+        width: 100%;
+        padding: 25px;
+        margin-bottom: 15px;
+        border: 1px solid #facbdb; /* Borde rosa */
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #e94476; /* Fondo rosa */
+        color: white;
+        border: none;
+        border-radius: 15px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #d81b60; /* Rosa más oscuro en hover */
+    }
+    
+</style>
+
+<body>
+    <div class="yet">
+        <h2>Login</h2>
+        <form action="login.php" method="post">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Iniciar sesión</button>
+        </form>
+    </div>
+
+<section> 
+
+
+    
+</section>
+    
+</body>
+</html>
+
